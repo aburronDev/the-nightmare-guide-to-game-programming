@@ -1,0 +1,6 @@
+[book]
+title = "La Guía de Pesadilla para Programar Videojuegos"
+authors = ["Christian Viñolo"]
+language = "es"
+multilingual = false
+src = "src"
