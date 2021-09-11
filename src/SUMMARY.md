@@ -2,6 +2,6 @@
 
 [Prefacio](./prefacio.md)
 [Introducción](./introduccion.md)
-[Contacto]()
+[Contacto](./contacto.md)
 
 ---
