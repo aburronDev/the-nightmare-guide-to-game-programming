@@ -4,13 +4,21 @@
 
 ---
 
-- [English]()
+# English
+- [Instructions]()
     - [Preface]()
     - [Introduction]()
     - [Contact]()
+- [Tutorial]()
+    - [Worrying about Hello World]()
+    - [All is about abstraction]()
 
-- [Español]()
-    - [Prefacio](./es/prefacio.md)
-    - [Introducción](./es/introduccion.md)
-    - [Contacto](./es/contacto.md)
+# Español
+- [Intrucciones]()
+    - [Prefacio](./es/instrucciones/prefacio.md)
+    - [Introducción](./es/instrucciones/introduccion.md)
+    - [Contacto](./es/instrucciones/contacto.md)
+- [Tutorial]()
+    - [Preocupándote por el Hola Mundo](./es/tutorial/hola_mundo.md)
+    - [Todo es cuestión de abstracción]()
 
