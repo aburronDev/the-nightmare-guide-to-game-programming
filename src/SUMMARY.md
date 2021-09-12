@@ -1,7 +1,16 @@
 # Summary
 
-[Prefacio](./prefacio.md)
-[Introducción](./introduccion.md)
-[Contacto](./contacto.md)
+[Choose your language](./language.md)
 
 ---
+
+- [English]()
+    - [Preface]()
+    - [Introduction]()
+    - [Contact]()
+
+- [Español]()
+    - [Prefacio](./es/prefacio.md)
+    - [Introducción](./es/introduccion.md)
+    - [Contacto](./es/contacto.md)
+

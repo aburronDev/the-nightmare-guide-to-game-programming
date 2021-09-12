@@ -19,4 +19,4 @@ Encontrarás ejemplos, sí, pero por favor no los copies. Toda información que 
 
 Antes de empezar, quiero avisarte de que todavía queda mucho para empezar a programar. Ni siquiera sabría decirte cuanto tiempo va a pasar hasta que escriba una línea de código.
 
-No te garantizo que todo lo que vas a aprender por el camino sea mucho más fascinante y divertido, pero si lo hiciese esta guía no tendría sentido.
+No te garantizo que todo lo que vas a aprender por el camino vayas a aplicarlo cuando trabajes de esto, pero te ayudará a buscarte la vida cuando tengas que enfrentarte a nuevos retos y buscar soluciones.

@@ -1,6 +1,11 @@
 [book]
-title = "La Guía de Pesadilla para Programar Videojuegos"
+title = "The Nightmare Guide to Game Programming"
 authors = ["Christian Viñolo"]
-language = "es"
-multilingual = false
+multilingual = true
 src = "src"
+
+[output.html]
+no-section-label = true
+
+[output.html.fold]
+enable = true
