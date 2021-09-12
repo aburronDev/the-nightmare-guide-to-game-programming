@@ -3,4 +3,4 @@
 This guide is available in the following languages:
 
 - [English]()
-- [Spanish](./es/prefacio.md)
+- [Español](./es/prefacio.md)
