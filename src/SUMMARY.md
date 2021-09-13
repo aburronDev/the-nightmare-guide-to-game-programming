@@ -7,7 +7,7 @@
 # English
 - [Instructions]()
     - [Preface](./en/instructions/preface.md)
-    - [Introduction]()
+    - [Introduction](./en/instructions/introduction.md)
     - [Contact]()
 - [Tutorial]()
     - [Worrying about Hello World]()
