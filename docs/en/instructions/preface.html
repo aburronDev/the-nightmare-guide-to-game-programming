@@ -1,0 +1,216 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Preface - The Nightmare Guide to Game Programming</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="../../language.html">Choose your language</a></li><li class="spacer"></li><li class="chapter-item affix "><li class="part-title">English</li><li class="chapter-item expanded "><div>Instructions</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../en/instructions/preface.html" class="active">Preface</a></li><li class="chapter-item "><div>Introduction</div></li><li class="chapter-item "><div>Contact</div></li></ol></li><li class="chapter-item "><div>Tutorial</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Worrying about Hello World</div></li><li class="chapter-item "><div>All is about abstraction</div></li></ol></li><li class="chapter-item "><li class="part-title">Español</li><li class="chapter-item "><div>Intrucciones</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../es/instrucciones/prefacio.html">Prefacio</a></li><li class="chapter-item "><a href="../../es/instrucciones/introduccion.html">Introducción</a></li><li class="chapter-item "><a href="../../es/instrucciones/contacto.html">Contacto</a></li></ol></li><li class="chapter-item "><div>Tutorial</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../es/tutorial/hola_mundo.html">Preocupándote por el Hola Mundo</a></li><li class="chapter-item "><div>Todo es cuestión de abstracción</div></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">The Nightmare Guide to Game Programming</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="preface"><a class="header" href="#preface">Preface</a></h1>
+<p>You are just starting to program, haven't been coding for too long, or you already have experience working in a team. You might have even participated in Game Jams, or have published projects on a platform that are being monetized.</p>
+<p>Maybe you have only worked in Unity and/or Unreal, have experience with other engines or have programmed in several languages.</p>
+<p>Or maybe you have only programmed video games, or just come from the world of web and app development. You might have worked both as frontend and backend, from design and layout to server-side communication, APIs and databases.</p>
+<p>And no, I'm not making assumptions. I know you're in one of these groups, and everyone has something in common: You don't know how to program video games.</p>
+<p>And yes, I know you deny it, but don't worry. It's part of the first stage of acceptance.</p>
+<h1 id="denial"><a class="header" href="#denial">Denial</a></h1>
+<p>You don't know how to program because every time you want to make the movement of a character, melee or ranged attacks, real-time or turn-based, a boss battle, cameras that follow more than one target, the options menu, an inventory system, transitions between scenes, loading bars, a particular genre of video games, or even the clone of a game...</p>
+<p>Every time you want to program something, the first thing you do is look for your trusted youtuber who has already uploaded a video programming just what you need, copy the code without knowing why he does it, paste it in your game and ready; you do not understand what you just put but it actually works, which is the point.</p>
+<p>With a bit of luck you will try to understand why he has programmed it that way. In the worst cases you will understand how it works and try to apply it in the future, taking that code as the absolute truth. In best cases you will wonder why he doesn't explain it, you will question his criteria as a programmer and you will try to redo it, correcting the errors you have identified.</p>
+<p>And yes, right now you are very angry because so far you have only come across videos that do not teach you how to program. But don't worry, it's part of the second stage of acceptance.</p>
+<h1 id="anger"><a class="header" href="#anger">Anger</a></h1>
+<p>The reality is that no video is going to teach you how to program video games.</p>
+<p>Go back to your trusted youtuber, take a look at the videos that have saved your life more than once, and you'll see that the vast majority of them have titles similar to &quot;How to make...&quot;, but never &quot;How to program...&quot;.</p>
+<p>It seems like a pretty obvious fact, but the reality is that you're going to watch those videos to be taught something quick that works, but just because it works doesn't mean it's well programmed.</p>
+<p>Now that you know that YouTube is not the best place to learn programming, you may be thinking about buying an Udemy course, sign up for a programming bootcamp or do some training that has teachers and offer you a certification for an arm and a leg without an official academic validity.</p>
+<p>That’s your case, I'll admit it for you.</p>
+<p>And don't worry, it's part of the third stage of acceptance.</p>
+<h1 id="negotiation"><a class="header" href="#negotiation">Negotiation</a></h1>
+<p>Udemy is not bad, in fact I have purchased quite a few courses that have helped me improve professionally. But don't misunderstand me, they have helped me to identify code snippets that I would never put in my projects, to avoid them and look for other solutions that are efficient and affordable to the project I'm working on. There are very few that have given me that 1% that I didn't expect to find and still apply today, and only one that has really given me a lot of value for the price they usually cost on discount.</p>
+<p>I have been in bootcamps and training centers and I'm not going to lie, they are useful if you accept that you’re not going to learn anything, and focus on networking instead. The only ones that I've been to I've managed to end up working for them, but it's a time you've invested just to want to work there, and the reality is that you still don't know how to program video games.</p>
+<p>You also have the option of meeting people who you think know how to program better than you, and you can learn from them, listen to their advice and receive feedback to improve. Although the reality is that the level difference might be so high, that you will realize there are so many things to learn that you will not know where to start, and end up collapsing yourself as time goes by.</p>
+<p>I guess you are already aware, but you are in the fourth stage of acceptance.</p>
+<h1 id="depression"><a class="header" href="#depression">Depression</a></h1>
+<p>You are here because you don't know what to do, frustrated with not knowing how to continue, or, in the worst case, you’ve already given up programming video games.</p>
+<p>You have stopped enjoying something you were passionate about, and you have come to the conclusion that this is not what you want to do.</p>
+<p>You have spent a lot of money and time on something that has not led anywhere, for someone to tell you that it has been useless.</p>
+<p>At this point, you need to understand that everything you have done to get here is not a bad thing. We all have our own way to progress, some with greater facilities and opportunities to learn, and others with many impediments and ignorance that make us fall into decisions that may delay our goals.</p>
+<p>Avoid excusing yourself wanting to try other things or thinking that you might not be made for this. You know you want to make video games, and any path that takes you away from that is going to make you regret in the future all the time you let pass.</p>
+<p>It's not your fault that you haven't learned to program yet. In reality, nobody has the absolute truth and everything you might find is both valid and wrong. In the end it is up to you as a programmer to validate the criteria of another programmer, and that ability is earned through experience of working with many people, whether they know more than you, or are just starting. Understand why they have done it that way, explore new solutions, and know which ones are the best that suits the project you are working on.</p>
+<p>You won't find anything that teaches you how to program video games. An artist doesn't watch videos on how to make characters when he has to. An 8-bit video game musician doesn’t look for tutorials on how to make 8-bit music. A platform game designer doesn’t look for the exact information about the game he’s working on.</p>
+<p>An artist has the knowledge and skills to draw whatever he is asked to or has specialized in. A musician knows how to read music sheets, play instruments and compose whatever he is asked to compose, no matter what style is. A game designer may even use colored cardboards after years of experimentation, having the minimum elements required to have his job done.</p>
+<p>A video game programmer has to know how to program, not just video games. A programmer who has not seen beyond a video game engine is not really a programmer, he just knows how to write code and make it work, but is not capable of doing anything else if he is taken out of it.</p>
+<p>Putting it this way makes a lot of sense, but the sad reality is that unlike the rest of the roles in this industry, programmers are the most affected and any decision you make is inevitably likely to lead you to inefficient ways of learning programming.</p>
+<p>Knowing all of this, there's no point in regretting anymore. However, you have achieved something that many programmers have not until now, that is to accept that you don’t know how to program.</p>
+<h1 id="acceptance"><a class="header" href="#acceptance">Acceptance</a></h1>
+<p>Congratulations! Not everyone is able to move forward knowing that they will have to leave behind everything they know about programming and start from scratch. This process can take you many years and there will be times when progress will seem to slow down, but at the same time you have learned a lot even if you don't have any project to prove it. That is a good sign, it means that this time you are progressing properly, and you will be working in that company or video game that you have been waiting for so long when you least expected.</p>
+<p>Luckily, you will not be alone in this new adventure, since I will be guiding you so that this time you can learn how to program videogames and recover that illusion you had since the first day you decided to dedicate yourself to it.</p>
+<p>This journey is long, but definitely worth the effort. If you embrace that difficulty and appreciate it as part of the learning process, half of the way will be done.</p>
+<p>I wish you the best of luck, don't give up, and take all the time of your life. It is the only way to reach your goals, no matter how far away they may seem.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../language.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../../es/instrucciones/prefacio.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../language.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../../es/instrucciones/prefacio.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>
