@@ -19,7 +19,7 @@ Déjame explicártelo con un ejemplo para que lo entiendas:
 print("¡Hola, mundo!")
 ```
 
-Como puedes ver, no necesitas saber como funciona Python para entender que hace ese fragmento de código. Y es cierto, no necesitas saber como funciona, pero que sentido tiene empezar a programar con algo que no sabemos que clase de magia negra esconde.
+Como puedes ver, no necesitas saber como funciona Python para entender que hace ese fragmento de código. Y es cierto, no necesitas saber como funciona, ¿pero que sentido tiene empezar a programar con algo que no sabemos que clase de magia negra esconde?
 
 La excusa perfecta es que estamos empezando a programar, y todo el mundo te dirá que no te preocupes por ello. Todas las personas que me han dicho eso han sido por dos motivos:
 
