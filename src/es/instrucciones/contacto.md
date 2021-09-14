@@ -1,8 +1,10 @@
 # Contacto
 
-Entiendo que puedas tener problemas a la hora de tomar esta guía, o te quedes estancado en algún punto y no sepas como continuar.
+Entiendo que puedes tener problemas a la hora de tomar esta guía, o te quedes estancado en algún punto y no sepas como continuar.
 
-Si necesitas preguntarme algo, puedes contactarme por los siguientes medios y trataré de responderte lo antes posible:
+Si necesitas ayuda o estar al tanto de las actualizaciones de esta guía, puedes unirte al discord de [The Nightmare Community](https://discord.gg/EdtpmDzsDS).
+
+También puedes contactarme personalmente por:
 
 - [Discord](https://discordapp.com/users/210731848265891840)
 - [Twitter](https://twitter.com/aburrondev)
