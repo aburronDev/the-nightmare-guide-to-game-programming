@@ -8,7 +8,7 @@
 - [Instructions]()
     - [Preface](./en/instructions/preface.md)
     - [Introduction](./en/instructions/introduction.md)
-    - [Contact]()
+    - [Contact](./en/instructions/contact.md)
 - [Tutorial]()
     - [Worrying about Hello World]()
     - [All is about abstraction]()
