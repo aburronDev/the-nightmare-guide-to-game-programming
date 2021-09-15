@@ -76,7 +76,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item affix "><a href="language.html">Choose your language</a></li><li class="spacer"></li><li class="chapter-item affix "><li class="part-title">English</li><li class="chapter-item "><div>Instructions</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="en/instructions/preface.html">Preface</a></li><li class="chapter-item "><a href="en/instructions/introduction.html">Introduction</a></li><li class="chapter-item "><a href="en/instructions/contact.html">Contact</a></li></ol></li><li class="chapter-item "><div>Tutorial</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Worrying about Hello World</div></li><li class="chapter-item "><div>All is about abstraction</div></li></ol></li><li class="chapter-item "><li class="part-title">Español</li><li class="chapter-item "><div>Intrucciones</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="es/instrucciones/prefacio.html">Prefacio</a></li><li class="chapter-item "><a href="es/instrucciones/introduccion.html">Introducción</a></li><li class="chapter-item "><a href="es/instrucciones/contacto.html">Contacto</a></li></ol></li><li class="chapter-item "><div>Tutorial</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="es/tutorial/hola_mundo.html">Preocupándote por el Hola Mundo</a></li><li class="chapter-item "><div>Todo es cuestión de abstracción</div></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item affix "><a href="language.html">Choose your language</a></li><li class="spacer"></li><li class="chapter-item affix "><li class="part-title">English</li><li class="chapter-item "><div>Instructions</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="en/instructions/preface.html">Preface</a></li><li class="chapter-item "><a href="en/instructions/introduction.html">Introduction</a></li><li class="chapter-item "><a href="en/instructions/contact.html">Contact</a></li></ol></li><li class="chapter-item "><div>Tutorial</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Worrying about Hello World</div></li><li class="chapter-item "><div>All is about abstraction</div></li></ol></li><li class="chapter-item "><li class="part-title">Español</li><li class="chapter-item "><div>Intrucciones</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="es/instrucciones/prefacio.html">Prefacio</a></li><li class="chapter-item "><a href="es/instrucciones/introduccion.html">Introducción</a></li><li class="chapter-item "><a href="es/instrucciones/contacto.html">Contacto</a></li></ol></li><li class="chapter-item "><div>Tutorial</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="es/tutorial/hola_mundo.html">Preocupándote por el Hola Mundo</a></li><li class="chapter-item "><a href="es/tutorial/abstraccion.html">Todo es cuestión de abstracción</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -290,6 +290,95 @@ print(&quot;¡Hola, mundo!&quot;)
 </ul>
 <p>En cualquier caso, el hecho de no preocuparse por como funciona puede suponerte un gran dolor de problemas que habrás tenido que lidiar en más de una ocasión.</p>
 <p>Empieza a preocuparte, te ayudará a sobrevivir en esta guía y en todo lo que quieras aprender por tu cuenta.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="todo-es-cuestión-de-abstracción"><a class="header" href="#todo-es-cuestión-de-abstracción">Todo es cuestión de abstracción</a></h1>
+<p>Cuando empiezas a programar, el lenguaje te está ofreciendo una serie de herramientas para facilitarte la vida. Si necesitas mostrar texto por pantalla, sólo tienes que preocuparte por pasarle el texto que quieres, pero no sabes que está haciendo el ordenador por debajo para lograr ese objetivo.</p>
+<p>Este énfasis de sólo tener que preocuparte por ¿qué hace? más que en el ¿cómo lo hace? se le conoce como abstracción.</p>
+<p>Cómo ya has podido observar, puedes aprender a programar y trabajar de ello con un lenguaje de programación, pero tendrás muchos, MUCHOS PROBLEMAS.</p>
+<blockquote>
+<p>Vamos a jugar a un juego:</p>
+<p>Te presento una serie de ejercicios escritos en C#. Ya están resueltos,  no quiero que escribas nada ni te pongas a programar.</p>
+<p>Antes de cada fragmento de código te vas a encontrar una pregunta, y tu objetivo es el de responderte a ti mismo que está ocurriendo con sólo leerlo.</p>
+<p>Una vez que tengas claro tu respuesta, te recomiendo que investigues y descubras si estabas en lo cierto.</p>
+<p>Si no encuentras la respuesta o sigues teniendo dudas, puedes unirte al discord de <a href="https://discord.gg/EdtpmDzsDS">The Nightmare Community</a> para leer la opinión de más programadores que han pasado por esta guía, e incluso la mía.</p>
+</blockquote>
+<h4 id="el-resultado-de-score-es-2147483648"><a class="header" href="#el-resultado-de-score-es-2147483648">¿El resultado de <code>score</code> es <code>2147483648</code>?</a></h4>
+<pre><code class="language-csharp">public class Nightmare00
+{
+	public static void Main()
+	{
+		int score = 2147483647;
+
+		score++;
+	}
+}
+</code></pre>
+<h4 id="con-qué-valor-se-inicializa-c"><a class="header" href="#con-qué-valor-se-inicializa-c">¿Con qué valor se inicializa <code>c</code>?</a></h4>
+<pre><code class="language-csharp">public class Nightmare01
+{
+	public static void Main()
+	{
+		char c = System.Convert.ToChar(48);
+	}
+}
+</code></pre>
+<h4 id="este-programa-compila"><a class="header" href="#este-programa-compila">¿Este programa compila?</a></h4>
+<pre><code class="language-csharp">public class Nightmare02
+{
+	public static void Main()
+	{
+		while(true);
+	}
+}
+</code></pre>
+<h4 id="cuál-es-el-valor-de-life-después-de-llamar-al-método-damage"><a class="header" href="#cuál-es-el-valor-de-life-después-de-llamar-al-método-damage">¿Cuál es el valor de <code>life</code> después de llamar al método <code>Damage</code>?</a></h4>
+<pre><code class="language-csharp">public class Nightmare03
+{
+	public static void Damage(int life, int amount)
+	{
+		life -= amount;
+	}
+
+	public static void Main()
+	{
+		int life = 100;
+
+		System.Console.WriteLine($&quot;Initial life = {life}&quot;);
+		Damage(life, 25);
+		System.Console.WriteLine($&quot;Current life = {life}&quot;);
+	}
+}
+</code></pre>
+<h4 id="por-qué-puedo-acceder-al-valor-de-un-índice-en-gamestate-si-no-está-declarado-como-string"><a class="header" href="#por-qué-puedo-acceder-al-valor-de-un-índice-en-gamestate-si-no-está-declarado-como-string">¿Por qué puedo acceder al valor de un índice en <code>gameState</code> si no está declarado como <code>string[]</code>?</a></h4>
+<pre><code class="language-csharp">public class Nightmare04
+{
+	public static void Main()
+	{
+		string gameState = &quot;Game Over&quot;;
+
+		System.Console.WriteLine($&quot;gameState[0] = {gameState[0]}&quot;);
+	}
+}
+</code></pre>
+<h4 id="por-qué-el-valor-de-pcurrentwave-nunca-es-el-mismo"><a class="header" href="#por-qué-el-valor-de-pcurrentwave-nunca-es-el-mismo">¿Por qué el valor de <code>pCurrentWave</code> nunca es el mismo?</a></h4>
+<pre><code class="language-csharp">public class Nightmare05
+{
+	public static void Main()
+	{
+		unsafe
+		{
+			int currentWave = 42;
+			int* pCurrentWave = &amp;currentWave;
+
+			System.Console.WriteLine($&quot;pCurrentWave = {(int)pCurrentWave}&quot;);
+		}
+	}
+}
+</code></pre>
+<p>¿Te han parecido díficiles las preguntas?</p>
+<p>Como has podido notar, son ejercicios muy simples, pero a su vez son tan básicos que no te habrás replanteado hasta ahora.</p>
+<p>Le damos mucha importancia a las mejores prácticas de código, cuando ni siquiera le prestamos atención a esos pequeños detalles que nos permiten comprender la funcionalidad de un lenguaje, y poder usarlo a nuestro favor.</p>
+<p>Nuestro tiempo es muy valioso, y no podemos perderlo con un lenguaje de programación que no sabemos utilizar. De lo contrario, perderás una tarde entera para encontrar la solución a un problema que no entiendes, y le echarás la culpa a ese motor de videojuegos que tanto odiamos pero al mismo tiempo amamos, porque si nos sacan de ahí no sabemos programar...</p>
+<p>La abstracción no lo es todo, mira más allá y encontrarás la respuesta a muchos de tus problemas.</p>
 
                     </main>
 
