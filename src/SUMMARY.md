@@ -21,4 +21,5 @@
 - [Tutorial]()
     - [Preocupándote por el Hola Mundo](./es/tutorial/hola_mundo.md)
     - [Todo es cuestión de abstracción](./es/tutorial/abstraccion.md)
+    - [De donde venimos](./es/tutorial/cronologia.md)
 

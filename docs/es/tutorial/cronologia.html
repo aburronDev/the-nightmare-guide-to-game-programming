@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Todo es cuestión de abstracción - The Nightmare Guide to Game Programming</title>
+        <title>De donde venimos - The Nightmare Guide to Game Programming</title>
         <!-- Custom HTML head -->
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
@@ -75,7 +75,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item affix "><a href="../../language.html">Choose your language</a></li><li class="spacer"></li><li class="chapter-item affix "><li class="part-title">English</li><li class="chapter-item "><div>Instructions</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../en/instructions/preface.html">Preface</a></li><li class="chapter-item "><a href="../../en/instructions/introduction.html">Introduction</a></li><li class="chapter-item "><a href="../../en/instructions/contact.html">Contact</a></li></ol></li><li class="chapter-item "><div>Tutorial</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Worrying about Hello World</div></li><li class="chapter-item "><div>All is about abstraction</div></li></ol></li><li class="chapter-item "><li class="part-title">Español</li><li class="chapter-item "><div>Intrucciones</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../es/instrucciones/prefacio.html">Prefacio</a></li><li class="chapter-item "><a href="../../es/instrucciones/introduccion.html">Introducción</a></li><li class="chapter-item "><a href="../../es/instrucciones/contacto.html">Contacto</a></li></ol></li><li class="chapter-item expanded "><div>Tutorial</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../es/tutorial/hola_mundo.html">Preocupándote por el Hola Mundo</a></li><li class="chapter-item expanded "><a href="../../es/tutorial/abstraccion.html" class="active">Todo es cuestión de abstracción</a></li><li class="chapter-item "><a href="../../es/tutorial/cronologia.html">De donde venimos</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item affix "><a href="../../language.html">Choose your language</a></li><li class="spacer"></li><li class="chapter-item affix "><li class="part-title">English</li><li class="chapter-item "><div>Instructions</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../en/instructions/preface.html">Preface</a></li><li class="chapter-item "><a href="../../en/instructions/introduction.html">Introduction</a></li><li class="chapter-item "><a href="../../en/instructions/contact.html">Contact</a></li></ol></li><li class="chapter-item "><div>Tutorial</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Worrying about Hello World</div></li><li class="chapter-item "><div>All is about abstraction</div></li></ol></li><li class="chapter-item "><li class="part-title">Español</li><li class="chapter-item "><div>Intrucciones</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../es/instrucciones/prefacio.html">Prefacio</a></li><li class="chapter-item "><a href="../../es/instrucciones/introduccion.html">Introducción</a></li><li class="chapter-item "><a href="../../es/instrucciones/contacto.html">Contacto</a></li></ol></li><li class="chapter-item expanded "><div>Tutorial</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../es/tutorial/hola_mundo.html">Preocupándote por el Hola Mundo</a></li><li class="chapter-item "><a href="../../es/tutorial/abstraccion.html">Todo es cuestión de abstracción</a></li><li class="chapter-item expanded "><a href="../../es/tutorial/cronologia.html" class="active">De donde venimos</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -134,105 +134,60 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="todo-es-cuestión-de-abstracción"><a class="header" href="#todo-es-cuestión-de-abstracción">Todo es cuestión de abstracción</a></h1>
-<p>Cuando empiezas a programar, el lenguaje te está ofreciendo una serie de herramientas para facilitarte la vida. Si necesitas mostrar texto por pantalla, sólo tienes que preocuparte por pasarle el texto que quieres, pero no sabes que está haciendo el ordenador por debajo para lograr ese objetivo.</p>
-<p>Este énfasis de sólo tener que preocuparte por ¿qué hace? más que en el ¿cómo lo hace? se le conoce como abstracción.</p>
-<p>Cómo ya has podido observar, puedes aprender a programar y trabajar de ello con un lenguaje de programación, pero tendrás muchos, MUCHOS PROBLEMAS.</p>
-<blockquote>
-<p>Vamos a jugar a un juego:</p>
-<p>Te presento una serie de ejercicios escritos en C#. Ya están resueltos,  no quiero que escribas nada ni te pongas a programar.</p>
-<p>Antes de cada fragmento de código te vas a encontrar una pregunta, y tu objetivo es el de responderte a ti mismo que está ocurriendo con sólo leerlo.</p>
-<p>Una vez que tengas claro tu respuesta, te recomiendo que investigues y descubras si estabas en lo cierto.</p>
-<p>Si no encuentras la respuesta o sigues teniendo dudas, puedes unirte al discord de <a href="https://discord.gg/EdtpmDzsDS">The Nightmare Community</a> para leer la opinión de más programadores que han pasado por esta guía, e incluso la mía.</p>
-</blockquote>
-<h4 id="el-resultado-de-score-es-2147483648"><a class="header" href="#el-resultado-de-score-es-2147483648">¿El resultado de <code>score</code> es <code>2147483648</code>?</a></h4>
-<pre><code class="language-csharp">public class Nightmare00
-{
-	public static void Main()
-	{
-		int score = 2147483647;
-
-		score++;
-	}
-}
-</code></pre>
-<h4 id="con-qué-valor-se-inicializa-c"><a class="header" href="#con-qué-valor-se-inicializa-c">¿Con qué valor se inicializa <code>c</code>?</a></h4>
-<pre><code class="language-csharp">public class Nightmare01
-{
-	public static void Main()
-	{
-		char c = System.Convert.ToChar(48);
-	}
-}
-</code></pre>
-<h4 id="este-programa-compila"><a class="header" href="#este-programa-compila">¿Este programa compila?</a></h4>
-<pre><code class="language-csharp">public class Nightmare02
-{
-	public static void Main()
-	{
-		while(true);
-	}
-}
-</code></pre>
-<h4 id="cuál-es-el-valor-de-life-después-de-llamar-al-método-damage"><a class="header" href="#cuál-es-el-valor-de-life-después-de-llamar-al-método-damage">¿Cuál es el valor de <code>life</code> después de llamar al método <code>Damage</code>?</a></h4>
-<pre><code class="language-csharp">public class Nightmare03
-{
-	public static void Damage(int life, int amount)
-	{
-		life -= amount;
-	}
-
-	public static void Main()
-	{
-		int life = 100;
-
-		System.Console.WriteLine($&quot;Initial life = {life}&quot;);
-		Damage(life, 25);
-		System.Console.WriteLine($&quot;Current life = {life}&quot;);
-	}
-}
-</code></pre>
-<h4 id="por-qué-puedo-acceder-al-valor-de-un-índice-en-gamestate-si-no-está-declarado-como-string"><a class="header" href="#por-qué-puedo-acceder-al-valor-de-un-índice-en-gamestate-si-no-está-declarado-como-string">¿Por qué puedo acceder al valor de un índice en <code>gameState</code> si no está declarado como <code>string[]</code>?</a></h4>
-<pre><code class="language-csharp">public class Nightmare04
-{
-	public static void Main()
-	{
-		string gameState = &quot;Game Over&quot;;
-
-		System.Console.WriteLine($&quot;gameState[0] = {gameState[0]}&quot;);
-	}
-}
-</code></pre>
-<h4 id="por-qué-el-valor-de-pcurrentwave-nunca-es-el-mismo"><a class="header" href="#por-qué-el-valor-de-pcurrentwave-nunca-es-el-mismo">¿Por qué el valor de <code>pCurrentWave</code> nunca es el mismo?</a></h4>
-<pre><code class="language-csharp">public class Nightmare05
-{
-	public static void Main()
-	{
-		unsafe
-		{
-			int currentWave = 42;
-			int* pCurrentWave = &amp;currentWave;
-
-			System.Console.WriteLine($&quot;pCurrentWave = {(int)pCurrentWave}&quot;);
-		}
-	}
-}
-</code></pre>
-<p>¿Te han parecido díficiles las preguntas?</p>
-<p>Como has podido notar, son ejercicios muy simples, pero a su vez son tan básicos que no te habrás replanteado hasta ahora.</p>
-<p>Le damos mucha importancia a las mejores prácticas de código, cuando ni siquiera le prestamos atención a esos pequeños detalles que nos permiten comprender la funcionalidad de un lenguaje, y poder usarlo a nuestro favor.</p>
-<p>Nuestro tiempo es muy valioso, y no podemos perderlo con un lenguaje de programación que no sabemos utilizar. De lo contrario, perderás una tarde entera para encontrar la solución a un problema que no entiendes, y le echarás la culpa a ese motor de videojuegos que tanto odiamos pero al mismo tiempo amamos, porque si nos sacan de ahí no sabemos programar...</p>
-<p>La abstracción no lo es todo, mira más allá y encontrarás la respuesta a muchos de tus problemas.</p>
+                        <h1 id="de-donde-venimos"><a class="header" href="#de-donde-venimos">De donde venimos</a></h1>
+<p>Algo que nunca dejará de sorprenderme, es que los programadores programan sin saber por qué. No me confundas, no estoy hablando de cual es su motivación para programar, ni a qué quieren dedicarse. Me refiero a cual es su origen y todo lo que ha tenido que pasar para que podamos escribir una serie de caracteres en un bloc de notas con un formato en concreto, y magicamente haga lo que necesitemos.</p>
+<p>Si hablas con un artista, te dirá que el origen del arte se remonta a las pinturas rupestres del Paleolítico. Un músico también estará de acuerdo en que en la Prehistoría hubo manifestaciónes de los primeros instrumentos musicales, pero no fue hasta el Antiguo Egipto cuando se empezó a utilizar la primera escala musical.</p>
+<p>Ahora habla con un programador, te sorprenderá la inexistente cantidad de respuestas que te encontrarás de su parte. Los más afectados en este caso son aquellos programadores que sólo trabajan en lenguajes de alto nivel, y sólo hacen aplicaciones webs, móviles, de escritorio y videojuegos.</p>
+<br/>
+<p><strong>¿Pero es necesario saber el origen de los ordenadores, la programación y la informática para poder trabajar de programador?</strong></p>
+<p><em>Un artista no necesita saber que las pinturas rupestres fueron el primer vestigio de arte en la humanidad, al igual que un músico no necesita saber que los primeros seres humanos consiguieron generar los primeros ritmos musicales chocando dos piedras.</em></p>
+<p><strong>¿Entonces necesitamos saberlo para programar?</strong></p>
+<p><em>La herramienta no hace al artista. Es la diferencia entre alguien que sólo es capaz de dibujar en digital, con alguien que le das un boli y te hace un retrato realista.</em></p>
+<p><strong>¿Me vas a reponder a la pregunta?</strong></p>
+<p><em>Si lo hiciese, estaría rompiendo una de las principales normas de esta guía.</em></p>
+<br/>
+<p>De todas formas, para esta guía sí vas a tener que conocer de donde venimos. Aunque parezca que suene a la típica asignatura de un cuatrimestre de la universidad, lo cierto es que la historia del ordenador es tan corta que en una mañana lo puedes aprender de sobra.</p>
+<p>Como ya sabrás, no te voy a decir ninguna página, libro o referencia donde empezar a investigar. Aunque como todavía estamos en el tutorial, voy a regalarte una pequeña cronología para que sepas si vas por el buen camino o estás investigando de más:</p>
+<ul>
+<li>(5000 a.c) Ábaco</li>
+<li>(1452-1519) Máquina de sumar de Leonardo Da Vinci</li>
+<li>(1613) Richard Brathwait</li>
+<li>(1622) Regla de cálculo</li>
+<li>(1623) Reloj calculador de Schickard</li>
+<li>(1642) Pascalina</li>
+<li>(1672) Rueda de Leibniz</li>
+<li>(1725) Basile Bouchon</li>
+<li>(1728) Jean-Baptiste Falcon</li>
+<li>(1745) Jacques de Vaucanson</li>
+<li>(1786) Máquina diferencial</li>
+<li>(1801) Telar de Jacquard</li>
+<li>(1834) Relé</li>
+<li>(1837) Máquina analítica</li>
+<li>(1842) Ada Lovelace</li>
+<li>(1847) George Boole</li>
+<li>(1890) Máquina tabuladora</li>
+<li>(1904) Tubo de vacío</li>
+<li>(1906) Triodo</li>
+<li>(1936) Máquina de Turing</li>
+<li>(1937) Claude Shannon</li>
+<li>(1944) Colossus mark I</li>
+<li>(1945) Arquitectura Von Neumann</li>
+<li>(1946) ENIAC</li>
+<li>(1946) EDVAC</li>
+<li>(1947) Transistor</li>
+</ul>
+<p>Si has investigado lo suficiente, te darás cuenta que hay ciertos datos que pueden parecer innecesarios y que faltan algunos que son esenciales para entender como funciona un ordenador. Como ya he dicho, el propósito de esta guía es ayudarte para que aprendas a aprender, cualquier consejo o ayuda que tengas es sólo la opinión de un programador más.</p>
+<p>Te estarás preguntando por qué he decidido parar la cronología a partir del transistor. Lo cierto es que hay una serie de fechas relevantes relacionados con la aparición de la electricidad, la televisión, los circuitos integrados, la primera generación de consolas, CP/M y DOS. Son importantes y la veremos en detalle cuando sea necesario, pero con la aparición del transistor tenemos de sobra para construir nuestro propio ordenador.</p>
+<p>No tengas prisa por ir a la siguiente sección, tómate todo el tiempo que necesites hasta que hayas aprendido todo lo que tengas que aprender.</p>
+<p>Insisto, no te lo voy a decir yo, debes saber cuando parar.</p>
+<p>Si continuas con la guía y sientes que te faltó algo por aprender, vuelve sobre tus propios pasos. Retroalimenta todo lo que has aprendido para poder contrastar lo que ya sabías antes con lo que sabes ahora.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../../es/tutorial/hola_mundo.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../../es/tutorial/abstraccion.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
-                            </a>
-                            <a rel="next" href="../../es/tutorial/cronologia.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
                             </a>
                         <div style="clear: both"></div>
                     </nav>
@@ -240,11 +195,8 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../../es/tutorial/hola_mundo.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../../es/tutorial/abstraccion.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
-                    </a>
-                    <a rel="next" href="../../es/tutorial/cronologia.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
 
