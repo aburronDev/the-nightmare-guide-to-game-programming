@@ -76,7 +76,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item affix "><a href="language.html">Choose your language</a></li><li class="spacer"></li><li class="chapter-item affix "><li class="part-title">English</li><li class="chapter-item "><div>Instructions</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="en/instructions/preface.html">Preface</a></li><li class="chapter-item "><a href="en/instructions/introduction.html">Introduction</a></li><li class="chapter-item "><a href="en/instructions/contact.html">Contact</a></li></ol></li><li class="chapter-item "><div>Tutorial</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Worrying about Hello World</div></li><li class="chapter-item "><div>All is about abstraction</div></li></ol></li><li class="chapter-item "><li class="part-title">Español</li><li class="chapter-item "><div>Intrucciones</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="es/instrucciones/prefacio.html">Prefacio</a></li><li class="chapter-item "><a href="es/instrucciones/introduccion.html">Introducción</a></li><li class="chapter-item "><a href="es/instrucciones/contacto.html">Contacto</a></li></ol></li><li class="chapter-item "><div>Tutorial</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="es/tutorial/hola_mundo.html">Preocupándote por el Hola Mundo</a></li><li class="chapter-item "><a href="es/tutorial/abstraccion.html">Todo es cuestión de abstracción</a></li><li class="chapter-item "><a href="es/tutorial/cronologia.html">De donde venimos</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item affix "><a href="language.html">Choose your language</a></li><li class="spacer"></li><li class="chapter-item affix "><li class="part-title">English</li><li class="chapter-item "><div>Instructions</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="en/instructions/preface.html">Preface</a></li><li class="chapter-item "><a href="en/instructions/introduction.html">Introduction</a></li><li class="chapter-item "><a href="en/instructions/contact.html">Contact</a></li></ol></li><li class="chapter-item "><div>Tutorial</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Worrying about Hello World</div></li><li class="chapter-item "><a href="en/tutorial/abstraction.html">A matter of abstraction</a></li></ol></li><li class="chapter-item "><li class="part-title">Español</li><li class="chapter-item "><div>Intrucciones</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="es/instrucciones/prefacio.html">Prefacio</a></li><li class="chapter-item "><a href="es/instrucciones/introduccion.html">Introducción</a></li><li class="chapter-item "><a href="es/instrucciones/contacto.html">Contacto</a></li></ol></li><li class="chapter-item "><div>Tutorial</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="es/tutorial/hola_mundo.html">Preocupándote por el Hola Mundo</a></li><li class="chapter-item "><a href="es/tutorial/abstraccion.html">Todo es cuestión de abstracción</a></li><li class="chapter-item "><a href="es/tutorial/cronologia.html">De donde venimos</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -204,6 +204,95 @@
 <li><a href="https://www.linkedin.com/in/christianvf">Linkedin</a></li>
 <li><a href="mailto:christianvf.adev@gmail.com">E-Mail</a></li>
 </ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="a-matter-of-abstraction"><a class="header" href="#a-matter-of-abstraction">A matter of abstraction</a></h1>
+<p>When starting in programming, the language is offering you a set of tools to make your life easier. If you need to display text on the screen, just type and forget. However, you might not know what the computer is doing underneath the code.</p>
+<p>Focusing on &quot;what it does” rather than “how is doing it” is called “abstraction”.</p>
+<p>As you have seen, you can learn to program and work at it with a programming language, but you will encounter many, MANY PROBLEMS.</p>
+<blockquote>
+<p>Let's play a game</p>
+<p>I present you a series of exercises written in C#. They are already solved, I don't want you to write anything or get into programming yet.</p>
+<p>Before each code fragment you’ll find a question, and your goal is to answer yourself what is happening just by reading it.</p>
+<p>Once you are sure about your answer, I recommend you do some research and find out if you were right.</p>
+<p>If you don't find the answer or you still have doubts, you can join <a href="https://discord.gg/EdtpmDzsDS">The Nightmare Community</a> discord to read the opinion of more programmers who have gone through this guide, and even mine.</p>
+</blockquote>
+<h4 id="is-the-score-result-2147483648"><a class="header" href="#is-the-score-result-2147483648">Is the <code>score</code> result <code>2147483648</code>?</a></h4>
+<pre><code class="language-csharp">public class Nightmare00
+{
+	public static void Main()
+	{
+		int score = 2147483647;
+
+		score++;
+	}
+}
+</code></pre>
+<h4 id="with-which-value-does-c-initialize"><a class="header" href="#with-which-value-does-c-initialize">With which value does <code>c</code> initialize?</a></h4>
+<pre><code class="language-csharp">public class Nightmare01
+{
+	public static void Main()
+	{
+		char c = System.Convert.ToChar(48);
+	}
+}
+</code></pre>
+<h4 id="does-this-program-compile"><a class="header" href="#does-this-program-compile">Does this program compile?</a></h4>
+<pre><code class="language-csharp">public class Nightmare02
+{
+	public static void Main()
+	{
+		while(true);
+	}
+}
+</code></pre>
+<h4 id="what-is-the-life-value-after-calling-the-damage-method"><a class="header" href="#what-is-the-life-value-after-calling-the-damage-method">What is the <code>life</code> value after calling the <code>Damage</code> method?</a></h4>
+<pre><code class="language-csharp">public class Nightmare03
+{
+	public static void Damage(int life, int amount)
+	{
+		life -= amount;
+	}
+
+	public static void Main()
+	{
+		int life = 100;
+
+		System.Console.WriteLine($&quot;Initial life = {life}&quot;);
+		Damage(life, 25);
+		System.Console.WriteLine($&quot;Current life = {life}&quot;);
+	}
+}
+</code></pre>
+<h4 id="why-can-i-access-an-index-value-in-gamestate-if-its-not-declared-as-string"><a class="header" href="#why-can-i-access-an-index-value-in-gamestate-if-its-not-declared-as-string">Why can I access an index value in <code>gameState</code> if it’s not declared as <code>string[]</code>?</a></h4>
+<pre><code class="language-csharp">public class Nightmare04
+{
+	public static void Main()
+	{
+		string gameState = &quot;Game Over&quot;;
+
+		System.Console.WriteLine($&quot;gameState[0] = {gameState[0]}&quot;);
+	}
+}
+</code></pre>
+<h4 id="why-is-pcurrentwave-value-never-the-same"><a class="header" href="#why-is-pcurrentwave-value-never-the-same">Why is <code>pCurrentWave</code> value never the same?</a></h4>
+<pre><code class="language-csharp">public class Nightmare05
+{
+	public static void Main()
+	{
+		unsafe
+		{
+			int currentWave = 42;
+			int* pCurrentWave = &amp;currentWave;
+
+			System.Console.WriteLine($&quot;pCurrentWave = {(int)pCurrentWave}&quot;);
+		}
+	}
+}
+</code></pre>
+<p>Did you find it difficult?</p>
+<p>As you may have noticed, these are very simple exercises, so basic in fact that you may not have thought about them until now.</p>
+<p>We give so much importance to the best coding practices that we don't pay attention to those little details that allow us to understand the functionality of a language, and use it to our advantage.</p>
+<p>Our time is valuable, and we cannot afford wasting it with a programming language that we don’t know how to use. Otherwise, you’ll find yourself wasting a whole afternoon to find the solution to a problem you don't understand, and you’ll probably blame that game engine we hate but at the same time we love so much, because if they take us out of there and think outside the box, we don't know how to program...</p>
+<p>Abstraction is not everything, look beyond and you’ll find the answer to many problems.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="prefacio"><a class="header" href="#prefacio">Prefacio</a></h1>
 <p>Estás empezando a programar, no llevarás mucho tiempo, o ya tienes experiencia trabajando en equipo. Incluso has participado en Game Jams, o tienes proyectos publicados en alguna plataforma que estén monetizando.</p>
 <p>Sólo has trabajado en Unity y/o Unreal, tienes experiencia con otros motores y además has programado en varios lenguajes.</p>
