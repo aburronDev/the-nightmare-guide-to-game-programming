@@ -47,7 +47,7 @@ You can start searching at your own pace. However, since we are still in the tut
 - (1906) Triode
 - (1936) Turing machine
 - (1937) Claude Shannon
-- (1944) Colossus mark I
+- (1944) Colossus Mark I
 - (1945) Von Neumann architecture
 - (1946) ENIAC
 - (1946) EDVAC
