@@ -47,7 +47,7 @@ Como ya sabrás, no te voy a decir ninguna página, libro o referencia donde emp
 - (1906) Triodo
 - (1936) Máquina de Turing
 - (1937) Claude Shannon
-- (1944) Colossus mark I
+- (1944) Colossus Mark I
 - (1945) Arquitectura Von Neumann
 - (1946) ENIAC
 - (1946) EDVAC
