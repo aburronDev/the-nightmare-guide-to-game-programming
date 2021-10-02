@@ -9,6 +9,3 @@ no-section-label = true
 
 [output.html.fold]
 enable = true
-
-[build]
-build-dir = "docs"
