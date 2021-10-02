@@ -1,0 +1,285 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>A matter of abstraction - The Nightmare Guide to Game Programming</title>
+                
+
+        <!-- Custom HTML head -->
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+                <link rel="icon" href="../../favicon.svg">
+                        <link rel="shortcut icon" href="../../favicon.png">
+                <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+                <link rel="stylesheet" href="../../css/print.css" media="print">
+        
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+                <link rel="stylesheet" href="../../fonts/fonts.css">
+        
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+            </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="../../language.html">Choose your language</a></li><li class="spacer"></li><li class="chapter-item affix "><li class="part-title">English</li><li class="chapter-item "><div>Instructions</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../en/instructions/preface.html">Preface</a></li><li class="chapter-item "><a href="../../en/instructions/introduction.html">Introduction</a></li><li class="chapter-item "><a href="../../en/instructions/contact.html">Contact</a></li></ol></li><li class="chapter-item expanded "><div>Tutorial</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../en/tutorial/hello_world.html">Worrying about Hello World</a></li><li class="chapter-item expanded "><a href="../../en/tutorial/abstraction.html" class="active">A matter of abstraction</a></li><li class="chapter-item "><a href="../../en/tutorial/cronology.html">Where we come from</a></li></ol></li><li class="chapter-item "><li class="part-title">Español</li><li class="chapter-item "><div>Intrucciones</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../es/instrucciones/prefacio.html">Prefacio</a></li><li class="chapter-item "><a href="../../es/instrucciones/introduccion.html">Introducción</a></li><li class="chapter-item "><a href="../../es/instrucciones/contacto.html">Contacto</a></li></ol></li><li class="chapter-item "><div>Tutorial</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../es/tutorial/hola_mundo.html">Preocupándote por el Hola Mundo</a></li><li class="chapter-item "><a href="../../es/tutorial/abstraccion.html">Todo es cuestión de abstracción</a></li><li class="chapter-item "><a href="../../es/tutorial/cronologia.html">De donde venimos</a></li></ol></li></ol>            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                                                <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                                            </div>
+
+                    <h1 class="menu-title">The Nightmare Guide to Game Programming</h1>
+
+                    <div class="right-buttons">
+                                                <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                                                                        
+                    </div>
+                </div>
+
+                                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="a-matter-of-abstraction"><a class="header" href="#a-matter-of-abstraction">A matter of abstraction</a></h1>
+<p>When starting in programming, the language is offering you a set of tools to make your life easier. If you need to display text on the screen, just type and forget. However, you might not know what the computer is doing underneath the code.</p>
+<p>Focusing on &quot;what it does” rather than “how is doing it” is called “abstraction”.</p>
+<p>As you have seen, you can learn to program and work at it with a programming language, but you will encounter many, MANY PROBLEMS.</p>
+<blockquote>
+<p>Let's play a game</p>
+<p>I present you a series of exercises written in C#. They are already solved, I don't want you to write anything or get into programming yet.</p>
+<p>Before each code fragment you’ll find a question, and your goal is to answer yourself what is happening just by reading it.</p>
+<p>Once you are sure about your answer, I recommend you do some research and find out if you were right.</p>
+<p>If you don't find the answer or you still have doubts, you can join <a href="https://discord.gg/EdtpmDzsDS">The Nightmare Community</a> discord to read the opinion of more programmers who have gone through this guide, and even mine.</p>
+</blockquote>
+<h4 id="is-the-score-result-2147483648"><a class="header" href="#is-the-score-result-2147483648">Is the <code>score</code> result <code>2147483648</code>?</a></h4>
+<pre><code class="language-csharp">public class Nightmare00
+{
+	public static void Main()
+	{
+		int score = 2147483647;
+
+		score++;
+	}
+}
+</code></pre>
+<h4 id="with-which-value-does-c-initialize"><a class="header" href="#with-which-value-does-c-initialize">With which value does <code>c</code> initialize?</a></h4>
+<pre><code class="language-csharp">public class Nightmare01
+{
+	public static void Main()
+	{
+		char c = System.Convert.ToChar(48);
+	}
+}
+</code></pre>
+<h4 id="does-this-program-compile"><a class="header" href="#does-this-program-compile">Does this program compile?</a></h4>
+<pre><code class="language-csharp">public class Nightmare02
+{
+	public static void Main()
+	{
+		while(true);
+	}
+}
+</code></pre>
+<h4 id="what-is-the-life-value-after-calling-the-damage-method"><a class="header" href="#what-is-the-life-value-after-calling-the-damage-method">What is the <code>life</code> value after calling the <code>Damage</code> method?</a></h4>
+<pre><code class="language-csharp">public class Nightmare03
+{
+	public static void Damage(int life, int amount)
+	{
+		life -= amount;
+	}
+
+	public static void Main()
+	{
+		int life = 100;
+
+		System.Console.WriteLine($&quot;Initial life = {life}&quot;);
+		Damage(life, 25);
+		System.Console.WriteLine($&quot;Current life = {life}&quot;);
+	}
+}
+</code></pre>
+<h4 id="why-can-i-access-an-index-value-in-gamestate-if-its-not-declared-as-string"><a class="header" href="#why-can-i-access-an-index-value-in-gamestate-if-its-not-declared-as-string">Why can I access an index value in <code>gameState</code> if it’s not declared as <code>string[]</code>?</a></h4>
+<pre><code class="language-csharp">public class Nightmare04
+{
+	public static void Main()
+	{
+		string gameState = &quot;Game Over&quot;;
+
+		System.Console.WriteLine($&quot;gameState[0] = {gameState[0]}&quot;);
+	}
+}
+</code></pre>
+<h4 id="why-is-pcurrentwave-value-never-the-same"><a class="header" href="#why-is-pcurrentwave-value-never-the-same">Why is <code>pCurrentWave</code> value never the same?</a></h4>
+<pre><code class="language-csharp">public class Nightmare05
+{
+	public static void Main()
+	{
+		unsafe
+		{
+			int currentWave = 42;
+			int* pCurrentWave = &amp;currentWave;
+
+			System.Console.WriteLine($&quot;pCurrentWave = {(int)pCurrentWave}&quot;);
+		}
+	}
+}
+</code></pre>
+<p>Did you find it difficult?</p>
+<p>As you may have noticed, these are very simple exercises, so basic in fact that you may not have thought about them until now.</p>
+<p>We give so much importance to the best coding practices that we don't pay attention to those little details that allow us to understand the functionality of a language, and use it to our advantage.</p>
+<p>Our time is valuable, and we cannot afford wasting it with a programming language that we don’t know how to use. Otherwise, you’ll find yourself wasting a whole afternoon to find the solution to a problem you don't understand, and you’ll probably blame that game engine we hate but at the same time we love so much, because if they take us out of there and think outside the box, we don't know how to program...</p>
+<p>Abstraction is not everything, look beyond and you’ll find the answer to many problems.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                                                    <a rel="prev" href="../../en/tutorial/hello_world.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+                                                    <a rel="next" href="../../en/tutorial/cronology.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                                    <a rel="prev" href="../../en/tutorial/hello_world.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+                                    <a rel="next" href="../../en/tutorial/cronology.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                            </nav>
+
+        </div>
+
+        
+        
+        
+                <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+        
+                <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+        
+    </body>
+</html>
