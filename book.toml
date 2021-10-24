@@ -6,6 +6,7 @@ src = "src"
 
 [output.html]
 no-section-label = true
+git-repository-url = "https://github.com/aburronDev/the-nightmare-guide-to-game-programming"
 
 [output.html.fold]
 enable = true
