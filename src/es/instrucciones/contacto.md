@@ -1,6 +1,6 @@
 # Contacto
 
-Entiendo que puedas tener dudas o te quedes estancado en algún punto a medida que avances en la guia.
+Entiendo que puedas tener dudas o te quedes estancado en algún punto a medida que avances en la guía.
 
 Si necesitas ayuda o quieres estar al tanto de las actualizaciones que vayan realizando en la guía, puedes unirte al discord de [The Nightmare Community](https://discord.gg/EdtpmDzsDS).
 
