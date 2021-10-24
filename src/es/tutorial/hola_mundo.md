@@ -1,4 +1,4 @@
-# Preocúpandote por el Hola Mundo
+# Preocupándote por el Hola Mundo
 
 Existe un ritual que todos los programadores tenemos que realizar cuando iniciamos nuestra aventura en un nuevo lenguaje de programación. Y no, no tiene nada que ver con formar parte de una secta de programadores que adoran al todopoderoso creador de un lenguaje que les ha dado la bendición de poder vivir económicamente gracias a su milagrosa creación.
 
