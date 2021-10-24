@@ -4,7 +4,7 @@ Has trabajado únicamente en Unity y/o Unreal, tienes experiencia con otros moto
 
 Sólo has programado videojuegos, o vienes del mundo del desarrollo web y apps. Has trabajado tanto de frontend como backend, desde diseño y maquetación hasta la comunicación con el servidor, APIs y bases de datos.
 
-No estoy haciendo suposiciones, estás en uno de estos grupos y todos tienen algo en común: No sabes programar videojuegos.
+No estoy haciendo suposiciones, estás en uno de estos grupos y todos tienen algo en común: No saben programar videojuegos.
 
 Sí, sé que lo estás negando. No te preocupes, forma parte de la primera etapa de aceptación.
 
@@ -16,7 +16,7 @@ Cada vez que quieres programar algo, simplemente buscas a tu youtuber de confian
 
 Con algo de suerte intentarás entender por qué lo ha programado así. En el peor de los casos entenderás su funcionamiento para tratar de replicarlo en un futuro, tomando ese código como la verdad absoluta. En el mejor de los casos, te preguntarás por qué no lo explica, pondrás en duda su criterio como programador e intentarás rehacerlo, corrigiendo los errores que has identificado.
 
-Y sí, ahora mismo estás muy enfadado, porque no has encontrado videos que te enseñen realmente a programar. No te preocupes, forma parte de la segunda etapa de la aceptación.
+Y sí, ahora mismo estás muy enfadado, porque no has encontrado videos que te enseñen realmente a programar. No te preocupes, forma parte de la segunda etapa de aceptación.
 
 # Ira
 
@@ -28,7 +28,7 @@ Parece un hecho bastante obvio, pero la realidad es que ves esos videos para que
 
 Ahora que sabes que YouTube no es el lugar más adecuado para aprender a programar, estarás pensando en comprar un curso en Udemy, apuntarte a un bootcamp de programación o empezar alguna formación académica con profesores que ofrezcan un certificado "oficial" a cambio de un riñón sin ninguna validez real.
 
-Es tu caso, ya lo admito yo por ti. Y no te preocupes, forma parte de la tercera etapa de la aceptación.
+Es tu caso, ya lo admito yo por ti. Y no te preocupes, forma parte de la tercera etapa de aceptación.
 
 # Negociación
 
@@ -38,7 +38,7 @@ He estado en bootcamps y centros de formación, y no te voy a mentir: son útile
 
 También tienes la opción de conocer personas que consideres que saben programar mejor que tú y, por tanto, puedas aprender de ellos, escuchar sus consejos y recibir feedback para mejorar. Aunque la realidad es que la diferencia de nivel será tan alta que acabarás dejándolo debido a la gran cantidad de cosas que aún te quedan por aprender.
 
-Supongo que ya eres consciente de ello, pero estás en la cuarta etapa de la aceptación.
+Supongo que ya eres consciente de ello, pero estás en la cuarta etapa de aceptación.
 
 # Depresión
 
@@ -66,7 +66,7 @@ Ahora ya sabes que esto es así, y que no tiene sentido seguir lamentándose por
 
 # Aceptación
 
-¡Felicidades! No todo el mundo es capaz de seguir adelante sabiendo que va a tener que dejar atrás todo lo que sabe de programación para empezar de cero. Este proceso te puede llevar muchos años, y habrá veces en la que pienses que no has conseguido nada; pero al mismo tiempo has aprendido muchísimo, aunque no tengas ningún proyecto con el que poder demostrarlo. 
+¡Felicidades! No todo el mundo es capaz de seguir adelante sabiendo que va a tener que dejar atrás todo lo que sabe de programación para empezar de cero. Este proceso te puede llevar muchos años, y habrá ocasiones en las que pienses que no has conseguido nada; pero al mismo tiempo has aprendido muchísimo, aunque no tengas ningún proyecto con el que poder demostrarlo. 
 
 Eso es una buena señal, significa que esta vez estás progresando adecuadamente, y cuando menos te lo esperes estarás trabajando en esa empresa o videojuego que tanto tiempo llevas esperando.
 
