@@ -5,6 +5,7 @@ multilingual = true
 src = "src"
 
 [output.html]
+preferred-dark-theme = "ayu"
 no-section-label = true
 
 [output.html.fold]
