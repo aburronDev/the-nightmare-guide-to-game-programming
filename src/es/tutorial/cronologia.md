@@ -1,4 +1,4 @@
-# De donde venimos
+# De dónde venimos
 
 Algo que nunca dejará de sorprenderme es que los programadores programan sin saber por qué. No estoy hablando sobre su motivación para programar ni a qué quieren dedicarse. Me refiero a cuál es su origen y todo lo que ha tenido que suceder para que podamos escribir una serie de caracteres en un bloc de notas, con un formato en concreto, y mágicamente haga lo que necesitemos.
 
@@ -14,9 +14,9 @@ En cambio, te sorprendería la inexistente cantidad de respuestas que te encontr
 
 **¿Entonces necesitamos saberlo para programar?**
 
-*La herramienta no hace al artista. Los conceptos usados en un retrato realista son los mismos tanto en pintura tradicional y como en digital.*
+*La herramienta no hace al artista. Los conceptos usados en un retrato realista son los mismos tanto en pintura tradicional como en digital.*
 
-**¿Vas a reponder a mi pregunta?**
+**¿Vas a responder a mi pregunta?**
 
 *Si lo hiciese, estaría rompiendo una de las principales normas de esta guía.*
 
@@ -53,7 +53,7 @@ No creo necesario mencionar ninguna página, libro o referencia donde puedas com
 - (1946) EDVAC
 - (1947) Transistor
 
-Si has investigado lo suficiente, notarás datos adicionales innecesarios, o que faltan otros esencinales para entender cómo funciona un ordenador. Como ya te he dicho, el propósito de esta guía es ayudarte a aprender, cualquier consejo o ayuda que recibas es meramente la opinión de un programador más.
+Si has investigado lo suficiente, notarás datos adicionales innecesarios, o que faltan otros esenciales para entender cómo funciona un ordenador. Como ya te he dicho, el propósito de esta guía es ayudarte a aprender, cualquier consejo o ayuda que recibas es meramente la opinión de un programador más.
 
 Te estarás preguntando por qué he decidido parar la cronología a partir del transistor. Lo cierto es que hay una serie de fechas relevantes relacionadas con la aparición de la electricidad, la televisión, los circuitos integrados, la primera generación de consolas, CP/M y DOS. Son importantes y las veremos en detalle cuando sea necesario, aunque con la aparición del transistor tenemos de sobra para construir nuestro propio ordenador.
 
@@ -61,4 +61,4 @@ No tengas prisa por ir a la siguiente sección, tómate todo el tiempo que neces
 
 Insisto, no te lo voy a decir yo, debes saber cuando parar.
 
-Si continuas con la guía y sientes que te faltó algo por aprender, no dudes en volver sobre tus pasos. Repite las lecciones hasta que las hayas asimilado. Después, retroalimenta todo lo que has aprendido, contrastando lo que ya sabías con lo que ahora sabes.
+Si continúas con la guía y sientes que te falta algo por aprender, no dudes en volver sobre tus pasos. Repite las lecciones hasta que las hayas asimilado. Después, retroalimenta todo lo que has aprendido, contrastando lo que ya sabías con lo que ahora sabes.
