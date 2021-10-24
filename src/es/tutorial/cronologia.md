@@ -1,30 +1,30 @@
-# De donde venimos
+# De dónde venimos
 
-Algo que nunca dejará de sorprenderme, es que los programadores programan sin saber por qué. No me confundas, no estoy hablando de cual es su motivación para programar, ni a qué quieren dedicarse. Me refiero a cual es su origen y todo lo que ha tenido que pasar para que podamos escribir una serie de caracteres en un bloc de notas con un formato en concreto, y magicamente haga lo que necesitemos.
+Algo que nunca dejará de sorprenderme es que los programadores programan sin saber por qué. No estoy hablando sobre su motivación para programar ni a qué quieren dedicarse. Me refiero a cuál es su origen y todo lo que ha tenido que suceder para que podamos escribir una serie de caracteres en un bloc de notas, con un formato en concreto, y mágicamente haga lo que necesitemos.
 
-Si hablas con un artista, te dirá que el origen del arte se remonta a las pinturas rupestres del Paleolítico. Un músico también estará de acuerdo en que en la Prehistoría hubo manifestaciónes de los primeros instrumentos musicales, pero no fue hasta el Antiguo Egipto cuando se empezó a utilizar la primera escala musical.
+Si hablas con un artista, te dirá que el origen del Arte se remonta a las pinturas rupestres del Paleolítico. Un músico también estará de acuerdo en que hubo manifestaciones musicales prehistóricas mediante el uso de instrumentos primitivos, aunque no sería hasta el Antiguo Egipto cuando se comenzaría a utilizar la primera escala musical.
 
-Ahora habla con un programador, te sorprenderá la inexistente cantidad de respuestas que te encontrarás de su parte. Los más afectados en este caso son aquellos programadores que sólo trabajan en lenguajes de alto nivel, y sólo hacen aplicaciones webs, móviles, de escritorio y videojuegos.
+En cambio, te sorprendería la inexistente cantidad de respuestas que te encontrarás por parte de un programador acerca de su materia. Los más afectados en este caso son aquellos que sólo trabajan en lenguajes de alto nivel, encargados únicamente de aplicaciones webs, móviles, de escritorio y videojuegos.
 
 <br/>
 
-**¿Pero es necesario saber el origen de los ordenadores, la programación y la informática para poder trabajar de programador?**
+**¿Es necesario saber el origen de los ordenadores, la programación y la informática para poder trabajar de programador?**
 
-*Un artista no necesita saber que las pinturas rupestres fueron el primer vestigio de arte en la humanidad, al igual que un músico no necesita saber que los primeros seres humanos consiguieron generar los primeros ritmos musicales chocando dos piedras.*
+*Un artista no necesita saber que las pinturas rupestres fueron el primer vestigio de arte en la humanidad, al igual que un músico no necesita saber que los primeros ritmos musicales se generaron chocando dos piedras*
 
 **¿Entonces necesitamos saberlo para programar?**
 
-*La herramienta no hace al artista. Es la diferencia entre alguien que sólo es capaz de dibujar en digital, con alguien que le das un boli y te hace un retrato realista.*
+*La herramienta no hace al artista. Los conceptos usados en un retrato realista son los mismos tanto en pintura tradicional como en digital.*
 
-**¿Me vas a reponder a la pregunta?**
+**¿Vas a responder a mi pregunta?**
 
 *Si lo hiciese, estaría rompiendo una de las principales normas de esta guía.*
 
 <br/>
 
-De todas formas, para esta guía sí vas a tener que conocer de donde venimos. Aunque parezca que suene a la típica asignatura de un cuatrimestre de la universidad, lo cierto es que la historia del ordenador es tan corta que en una mañana lo puedes aprender de sobra.
+De todos modos, conocer nuestro origen no te hará daño, y puede que hasta te resulte interesante. Aunque pueda parecer un tostón académico, típico de asignaturas de un cuatrimestre de universidad, lo cierto es que la historia del ordenador es tan corta que puede ser explicada en una mañana.
 
-Como ya sabrás, no te voy a decir ninguna página, libro o referencia donde empezar a investigar. Aunque como todavía estamos en el tutorial, voy a regalarte una pequeña cronología para que sepas si vas por el buen camino o estás investigando de más:
+No creo necesario mencionar ninguna página, libro o referencia donde puedas comenzar a investigar. No obstante, y como aún estamos en el tutorial, voy a regalarte una pequeña cronología para que sepas si vas por el buen camino o estás investigando de más:
 
 - (5000 a.c) Ábaco
 - (1452-1519) Máquina de sumar de Leonardo Da Vinci
@@ -53,12 +53,12 @@ Como ya sabrás, no te voy a decir ninguna página, libro o referencia donde emp
 - (1946) EDVAC
 - (1947) Transistor
 
-Si has investigado lo suficiente, te darás cuenta que hay ciertos datos que pueden parecer innecesarios y que faltan algunos que son esenciales para entender como funciona un ordenador. Como ya he dicho, el propósito de esta guía es ayudarte para que aprendas a aprender, cualquier consejo o ayuda que tengas es sólo la opinión de un programador más.
+Si has investigado lo suficiente, notarás datos adicionales innecesarios, o que faltan otros esenciales para entender cómo funciona un ordenador. Como ya te he dicho, el propósito de esta guía es ayudarte a aprender, cualquier consejo o ayuda que recibas es meramente la opinión de un programador más.
 
-Te estarás preguntando por qué he decidido parar la cronología a partir del transistor. Lo cierto es que hay una serie de fechas relevantes relacionados con la aparición de la electricidad, la televisión, los circuitos integrados, la primera generación de consolas, CP/M y DOS. Son importantes y la veremos en detalle cuando sea necesario, pero con la aparición del transistor tenemos de sobra para construir nuestro propio ordenador.
+Te estarás preguntando por qué he decidido parar la cronología a partir del transistor. Lo cierto es que hay una serie de fechas relevantes relacionadas con la aparición de la electricidad, la televisión, los circuitos integrados, la primera generación de consolas, CP/M y DOS. Son importantes y las veremos en detalle cuando sea necesario, aunque con la aparición del transistor tenemos de sobra para construir nuestro propio ordenador.
 
 No tengas prisa por ir a la siguiente sección, tómate todo el tiempo que necesites hasta que hayas aprendido todo lo que tengas que aprender.
 
 Insisto, no te lo voy a decir yo, debes saber cuando parar.
 
-Si continuas con la guía y sientes que te faltó algo por aprender, vuelve sobre tus propios pasos. Retroalimenta todo lo que has aprendido para poder contrastar lo que ya sabías antes con lo que sabes ahora.
+Si continúas con la guía y sientes que te falta algo por aprender, no dudes en volver sobre tus pasos. Repite las lecciones hasta que las hayas asimilado. Después, retroalimenta todo lo que has aprendido, contrastando lo que ya sabías con lo que ahora sabes.
