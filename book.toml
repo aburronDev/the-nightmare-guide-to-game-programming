@@ -5,6 +5,7 @@ multilingual = true
 src = "src"
 
 [output.html]
+preferred-dark-theme = "ayu"
 no-section-label = true
 git-repository-url = "https://github.com/aburronDev/the-nightmare-guide-to-game-programming"
 
