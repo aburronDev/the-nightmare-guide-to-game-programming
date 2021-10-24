@@ -14,7 +14,7 @@ La mayoría de libros y tutoriales acerca de programación están diseñados par
 
 Es por ello que he diseñado esta guía; para ayudarte a aprender por tu cuenta. Voy a dar por hecho que sigues la guía de forma secuencial y ordenada, de lo contrario irás saltando de página en página sin comprender nada.
 
-Tampoco voy a explicarte nada, ya que no tiene sentido usar mi  razonamiento para entenderlo. Si no sabes de lo que estoy hablando, tal vez sea porque ya te saltaste la norma de seguir la guía de forma secuencial. Vuelve al [Prefacio](./prefacio.md). Sé que no quieres leerlo, pero cuanto antes lo hagas, antes podremos dejar esta introducción tan absurda.
+Tampoco voy a explicarte nada, ya que no tiene sentido usar mi razonamiento para entenderlo. Si no sabes de lo que estoy hablando, tal vez sea porque ya te saltaste la norma de seguir la guía de forma secuencial. Vuelve al [Prefacio](./prefacio.md). Sé que no quieres leerlo, pero cuanto antes lo hagas, antes podremos dejar esta introducción tan absurda.
 
 Encontrarás ejemplos, sí, pero te ruego que no los copies. Toda información que puedas encontrar es una ampliación de lo que ya has investigado por tu cuenta, o consejos que he añadido para mejorar tu habilidad de aprender por tu cuenta.
 
