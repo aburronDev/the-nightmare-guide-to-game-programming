@@ -1,5 +1,7 @@
 # Prefacio
+
 Tal vez estás empezando a programar, no llevas mucho tiempo, o ya tienes experiencia previa trabajando en equipo. Puede que incluso hayas participado en Game Jams, o tengas proyectos publicados que están siendo monetizados en alguna plataforma.
+
 Has trabajado únicamente en Unity y/o Unreal, tienes experiencia con otros motores o ya has programado en varios lenguajes.
 
 Sólo has programado videojuegos, o vienes del mundo del desarrollo web y apps. Has trabajado tanto de frontend como backend, desde diseño y maquetación hasta la comunicación con el servidor, APIs y bases de datos.
@@ -28,7 +30,9 @@ Parece un hecho bastante obvio, pero la realidad es que ves esos videos para que
 
 Ahora que sabes que YouTube no es el lugar más adecuado para aprender a programar, estarás pensando en comprar un curso en Udemy, apuntarte a un bootcamp de programación o empezar alguna formación académica con profesores que ofrezcan un certificado "oficial" a cambio de un riñón sin ninguna validez real.
 
-Es tu caso, ya lo admito yo por ti. Y no te preocupes, forma parte de la tercera etapa de aceptación.
+Es tu caso, ya lo admito yo por ti.
+
+Y no te preocupes, forma parte de la tercera etapa de aceptación.
 
 # Negociación
 
@@ -60,7 +64,7 @@ Un artista posee los conceptos y habilidades necesarias para dibujar aquello que
 
 Un programador de videojuegos tiene que saber programar, no sólo videojuegos. Un programador que no ha visto más allá de un motor de videojuegos no es un programador, es una persona que sabe escribir código y hacer que funcione, pero no es capaz de hacer nada más si lo sacan de su entorno.
 
-Dicho así tiene mucho sentido, pero la triste realidad es que, a diferencia del resto de roles en la industria, los programadores son los más afectados. Cualquier decisión que tomes puede llevarte a cientos de formas de aprender a programar de forma ineficiente, inevitablemente.
+Dicho así tiene mucho sentido, pero la triste realidad es que, a diferencia del resto de roles en la industria, los programadores son los más afectados. Cualquier decisión que tomes puede llevarte a cientos de formas ineficientes de aprender a programar.
 
 Ahora ya sabes que esto es así, y que no tiene sentido seguir lamentándose por ello. Aunque no lo parezca, has conseguido algo que muchos programadores no han logrado hasta ahora, has conseguido aceptar que no sabes programar.
 
