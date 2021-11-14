@@ -55,7 +55,7 @@ You can start searching at your own pace. However, since we are still in the tut
 
 If you have done enough research, you will realize that there are certain pieces of information that may seem unnecessary and some of the essentials to understand how a computer works are missing. As I said, the purpose of this guide is to help you learn how to learn, any advice or help you receive is just another programmer's opinion.
 
-You may be wondering why I have decided to stop the chronology at the transistor. The truth is that there are a number of relevant dates related to the emergence of electricity, television, integrated circuits, the first generation of consoles, CP/M and DOS. They are important and we will see them in detail when necessary, but with the appearance of the transistor we have enough to build our own computer.
+You may be wondering why I have decided to stop the chronology at the transistor. The truth is that there are a number of relevant dates related to the emergence of electricity, television, integrated circuits, the first generation of consoles, CP/M and DOS. They are important and we will see them in detail when necessary, but with the appearance of the transistor we have enough to understand how the computer you use for programming works.
 
 Don't rush to the next section, take your time until you've learned everything you need to learn.
 
