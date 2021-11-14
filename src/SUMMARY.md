@@ -13,6 +13,8 @@
 	- [Worrying about Hello World](./en/tutorial/hello_world.md)
 	- [A matter of abstraction](./en/tutorial/abstraction.md)
 	- [Where we come from](./en/tutorial/cronology.md)
+- [Programming fundamentals]()
+	- [Where to start]()
 # Español
 - [Intrucciones]()
 	- [Prefacio](./es/instrucciones/prefacio.md)
@@ -22,4 +24,6 @@
 	- [Preocupándote por el Hola Mundo](./es/tutorial/hola_mundo.md)
 	- [Todo es cuestión de abstracción](./es/tutorial/abstraccion.md)
 	- [De donde venimos](./es/tutorial/cronologia.md)
+- [Fundamentos de programación]()
+	- [Por dónde empezar](./es/fundamentos/requisitos.md)
 
