@@ -4,7 +4,7 @@ When starting in programming, the language is offering you a set of tools to mak
 
 Focusing on "what it does” rather than “how is doing it” is called “abstraction”.
 
-As you have seen, you can learn to program and work at it with a programming language, but you will encounter many, MANY PROBLEMS.
+As you have seen, you can learn to program and work at it with a programming language, but you will encounter many, **MANY PROBLEMS**.
 
 >Let's play a game
 >
