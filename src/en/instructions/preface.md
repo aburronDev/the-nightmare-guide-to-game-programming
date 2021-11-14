@@ -6,7 +6,7 @@ You have only worked in Unity and/or Unreal, have experience with other engines 
 
 You have only programmed video games, or just come from the world of web and app development. You might have worked both as frontend and backend, from design and layout to server-side communication, APIs and databases.
 
-And no, I'm not making assumptions. I know you're in one of these groups, and everyone has something in common: You don't know how to program video games.
+No, I'm not making assumptions. I know you're in one of these groups, and everyone has something in common: You don't know how to program video games.
 
 And yes, I know you deny it, but don't worry. It's part of the first stage of acceptance.
 
@@ -70,7 +70,9 @@ Knowing all of this, there's no point in regretting anymore. However, you have a
 
 # Acceptance
 
-Congratulations! Not everyone is able to move forward knowing that they will have to leave behind everything they know about programming and start from scratch. This process can take you many years and there will be times when progress will seem to slow down, but at the same time you have learned a lot even if you don't have any project to prove it. That is a good sign, it means that this time you are progressing properly, and you will be working in that company or video game that you have been waiting for so long when you least expected.
+Congratulations! Not everyone is able to move forward knowing that they will have to leave behind everything they know about programming and start from scratch. This process can take you many years and there will be times when progress will seem to slow down, but at the same time you have learned a lot even if you don't have any project to prove it.
+
+That is a good sign, it means that this time you are progressing properly, and you will be working in that company or video game that you have been waiting for so long when you least expected.
 
 Luckily, you will not be alone in this new adventure, since I will be guiding you so that this time you can learn how to program videogames and recover that illusion you had since the first day you decided to dedicate yourself to it.
 
