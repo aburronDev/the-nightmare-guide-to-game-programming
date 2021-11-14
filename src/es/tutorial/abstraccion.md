@@ -4,7 +4,7 @@ Cuando empiezas a programar, el lenguaje te ofrece una serie de herramientas par
 
 A este énfasis en preocuparte únicamente por "¿qué hace?" en lugar de "¿cómo lo hace?" se lo conoce como abstracción.
 
-Cómo ya has podido observar, puedes aprender a programar y trabajar de ello con un lenguaje de programación, pero tendrás muchos, MUCHOS PROBLEMAS.
+Cómo ya has podido observar, puedes aprender a programar y trabajar de ello con un lenguaje de programación, pero tendrás muchos, **MUCHOS PROBLEMAS**.
 
 > Vamos a jugar a un juego:
 >
@@ -108,7 +108,7 @@ public class Nightmare05
 
 Como habrás podido notar, son ejercicios muy simples, pero a su vez tan básicos que no te habrás planteado hasta ahora.
 
-Le damos mucha importancia a saber cuáles son las mejores buenas prácticas de código, ignorando por completo esos pequeños detalles que nos permiten comprender la funcionalidad de un lenguaje y usarlo a nuestro favor.
+Le damos mucha importancia a saber cuáles son las mejores prácticas de código, ignorando por completo esos pequeños detalles que nos permiten comprender la funcionalidad de un lenguaje y usarlo a nuestro favor.
 
 Nuestro tiempo es muy valioso, y no podemos perderlo con un lenguaje de programación que no sabemos utilizar. De lo contrario, perderás una tarde entera para encontrar la solución a un problema que no entiendes, y le echarás la culpa a ese motor de videojuegos que tanto odiamos, pero al mismo tiempo amamos, porque si nos sacan de ahí, no sabemos programar nada...
 
