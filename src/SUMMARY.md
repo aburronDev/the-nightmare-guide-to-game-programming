@@ -14,7 +14,7 @@
 	- [A matter of abstraction](./en/tutorial/abstraction.md)
 	- [Where we come from](./en/tutorial/cronology.md)
 - [Programming fundamentals]()
-	- [Where to start]()
+	- [Where to start](./en/fundamentals/requirements.md)
 # Español
 - [Intrucciones]()
 	- [Prefacio](./es/instrucciones/prefacio.md)
