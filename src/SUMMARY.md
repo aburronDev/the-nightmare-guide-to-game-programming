@@ -26,4 +26,4 @@
 	- [De donde venimos](./es/tutorial/cronologia.md)
 - [Fundamentos de programación]()
 	- [Por dónde empezar](./es/fundamentos/requisitos.md)
-
+	- [No uses Windows](./es/fundamentos/windows.md)
