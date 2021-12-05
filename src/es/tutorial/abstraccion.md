@@ -16,7 +16,7 @@ Cómo ya has podido observar, puedes aprender a programar y trabajar de ello con
 >
 > Si no encuentras la respuesta o sigues teniendo dudas, puedes unirte al Discord de [The Nightmare Community](https://discord.gg/EdtpmDzsDS) para leer la opinión de más programadores que han pasado por esta guía, además de la mía.
 
-#### ¿El resultado de `score` es `2147483648`?
+#### ¿El resultado de "score" es "2147483648"?
 
 ```csharp
 public class Nightmare00
@@ -30,7 +30,7 @@ public class Nightmare00
 }
 ```
 
-#### ¿Con qué valor se inicializa `c`?
+#### ¿Con qué valor se inicializa "c"?
 
 ```csharp
 public class Nightmare01
