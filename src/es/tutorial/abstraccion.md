@@ -42,10 +42,28 @@ public class Nightmare01
 }
 ```
 
-#### ¿Este programa compila?
+#### ¿"b == 2" se está comprobando?
 
 ```csharp
 public class Nightmare02
+{
+    public static void Main()
+    {
+        int a = 4;
+        int b = 2;
+
+        if (a == 2 && b == 2)
+        {
+            a = b;
+        }
+    }
+}
+```
+
+#### ¿Este programa compila?
+
+```csharp
+public class Nightmare03
 {
 	public static void Main()
 	{
@@ -54,9 +72,10 @@ public class Nightmare02
 }
 ```
 
-#### ¿Cuál es el valor de `life` después de llamar al método `Damage`?
+#### ¿Cuál es el valor de "life" después de llamar al método "Damage"?
+
 ```csharp
-public class Nightmare03
+public class Nightmare04
 {
 	public static void Damage(int life, int amount)
 	{
@@ -74,9 +93,10 @@ public class Nightmare03
 }
 ```
 
-#### ¿Por qué puedo acceder al valor de un índice en `gameState` si no está declarado como `string[]`?
+#### ¿Por qué puedo acceder al valor de un índice en "gameState" si no está declarado como "string[]"?
+
 ```csharp
-public class Nightmare04
+public class Nightmare05
 {
 	public static void Main()
 	{
@@ -87,16 +107,17 @@ public class Nightmare04
 }
 ```
 
-#### ¿Por qué el valor de `pCurrentWave` nunca es el mismo?
+#### ¿Por qué el valor de "pCurrentWave" nunca es el mismo?
+
 ```csharp
-public class Nightmare05
+public class Nightmare06
 {
 	public static void Main()
 	{
 		unsafe
 		{
 			int currentWave = 42;
-			int* pCurrentWave = &currentWave;
+			int *pCurrentWave = &currentWave;
 
 			System.Console.WriteLine($"pCurrentWave = {(int)pCurrentWave}");
 		}
