@@ -148,7 +148,7 @@
 <p>Una vez que tengas clara tu respuesta, te recomiendo que investigues para descubrir si estabas en lo cierto.</p>
 <p>Si no encuentras la respuesta o sigues teniendo dudas, puedes unirte al Discord de <a href="https://discord.gg/EdtpmDzsDS">The Nightmare Community</a> para leer la opinión de más programadores que han pasado por esta guía, además de la mía.</p>
 </blockquote>
-<h4 id="el-resultado-de-score-es-2147483648"><a class="header" href="#el-resultado-de-score-es-2147483648">¿El resultado de <code>score</code> es <code>2147483648</code>?</a></h4>
+<h4 id="el-resultado-de-score-es-2147483648"><a class="header" href="#el-resultado-de-score-es-2147483648">¿El resultado de &quot;score&quot; es &quot;2147483648&quot;?</a></h4>
 <pre><code class="language-csharp">public class Nightmare00
 {
 	public static void Main()
@@ -159,7 +159,7 @@
 	}
 }
 </code></pre>
-<h4 id="con-qué-valor-se-inicializa-c"><a class="header" href="#con-qué-valor-se-inicializa-c">¿Con qué valor se inicializa <code>c</code>?</a></h4>
+<h4 id="con-qué-valor-se-inicializa-c"><a class="header" href="#con-qué-valor-se-inicializa-c">¿Con qué valor se inicializa &quot;c&quot;?</a></h4>
 <pre><code class="language-csharp">public class Nightmare01
 {
 	public static void Main()
@@ -168,8 +168,23 @@
 	}
 }
 </code></pre>
-<h4 id="este-programa-compila"><a class="header" href="#este-programa-compila">¿Este programa compila?</a></h4>
+<h4 id="b--2-se-está-comprobando"><a class="header" href="#b--2-se-está-comprobando">¿&quot;b == 2&quot; se está comprobando?</a></h4>
 <pre><code class="language-csharp">public class Nightmare02
+{
+    public static void Main()
+    {
+        int a = 4;
+        int b = 2;
+
+        if (a == 2 &amp;&amp; b == 2)
+        {
+            a = b;
+        }
+    }
+}
+</code></pre>
+<h4 id="este-programa-compila"><a class="header" href="#este-programa-compila">¿Este programa compila?</a></h4>
+<pre><code class="language-csharp">public class Nightmare03
 {
 	public static void Main()
 	{
@@ -177,8 +192,8 @@
 	}
 }
 </code></pre>
-<h4 id="cuál-es-el-valor-de-life-después-de-llamar-al-método-damage"><a class="header" href="#cuál-es-el-valor-de-life-después-de-llamar-al-método-damage">¿Cuál es el valor de <code>life</code> después de llamar al método <code>Damage</code>?</a></h4>
-<pre><code class="language-csharp">public class Nightmare03
+<h4 id="cuál-es-el-valor-de-life-después-de-llamar-al-método-damage"><a class="header" href="#cuál-es-el-valor-de-life-después-de-llamar-al-método-damage">¿Cuál es el valor de &quot;life&quot; después de llamar al método &quot;Damage&quot;?</a></h4>
+<pre><code class="language-csharp">public class Nightmare04
 {
 	public static void Damage(int life, int amount)
 	{
@@ -195,8 +210,8 @@
 	}
 }
 </code></pre>
-<h4 id="por-qué-puedo-acceder-al-valor-de-un-índice-en-gamestate-si-no-está-declarado-como-string"><a class="header" href="#por-qué-puedo-acceder-al-valor-de-un-índice-en-gamestate-si-no-está-declarado-como-string">¿Por qué puedo acceder al valor de un índice en <code>gameState</code> si no está declarado como <code>string[]</code>?</a></h4>
-<pre><code class="language-csharp">public class Nightmare04
+<h4 id="por-qué-puedo-acceder-al-valor-de-un-índice-en-gamestate-si-no-está-declarado-como-string"><a class="header" href="#por-qué-puedo-acceder-al-valor-de-un-índice-en-gamestate-si-no-está-declarado-como-string">¿Por qué puedo acceder al valor de un índice en &quot;gameState&quot; si no está declarado como &quot;string[]&quot;?</a></h4>
+<pre><code class="language-csharp">public class Nightmare05
 {
 	public static void Main()
 	{
@@ -206,15 +221,15 @@
 	}
 }
 </code></pre>
-<h4 id="por-qué-el-valor-de-pcurrentwave-nunca-es-el-mismo"><a class="header" href="#por-qué-el-valor-de-pcurrentwave-nunca-es-el-mismo">¿Por qué el valor de <code>pCurrentWave</code> nunca es el mismo?</a></h4>
-<pre><code class="language-csharp">public class Nightmare05
+<h4 id="por-qué-el-valor-de-pcurrentwave-nunca-es-el-mismo"><a class="header" href="#por-qué-el-valor-de-pcurrentwave-nunca-es-el-mismo">¿Por qué el valor de &quot;pCurrentWave&quot; nunca es el mismo?</a></h4>
+<pre><code class="language-csharp">public class Nightmare06
 {
 	public static void Main()
 	{
 		unsafe
 		{
 			int currentWave = 42;
-			int* pCurrentWave = &amp;currentWave;
+			int *pCurrentWave = &amp;currentWave;
 
 			System.Console.WriteLine($&quot;pCurrentWave = {(int)pCurrentWave}&quot;);
 		}
