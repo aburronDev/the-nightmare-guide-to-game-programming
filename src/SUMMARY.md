@@ -16,7 +16,7 @@
 - [Programming fundamentals]()
 	- [Where to start](./en/fundamentals/requirements.md)
 # Español
-- [Intrucciones]()
+- [Instrucciones]()
 	- [Prefacio](./es/instrucciones/prefacio.md)
 	- [Introducción](./es/instrucciones/introduccion.md)
 	- [Contacto](./es/instrucciones/contacto.md)
