@@ -16,7 +16,7 @@ As you have seen, you can learn to program and work at it with a programming lan
 >
 >If you don't find the answer or you still have doubts, you can join [The Nightmare Community](https://discord.gg/EdtpmDzsDS) discord to read the opinion of more programmers who have gone through this guide, and even mine.
 
-#### Is the `score` result `2147483648`?
+#### Is the "score" result "2147483648"?
 
 ```csharp
 public class Nightmare00
@@ -30,7 +30,7 @@ public class Nightmare00
 }
 ```
 
-#### With which value does `c` initialize?
+#### With which value does "c" initialize?
 
 ```csharp
 public class Nightmare01
@@ -42,10 +42,28 @@ public class Nightmare01
 }
 ```
 
-#### Does this program compile?
+#### Is "b == 2" being checked?
 
 ```csharp
 public class Nightmare02
+{
+    public static void Main()
+    {
+        int a = 4;
+        int b = 2;
+
+        if (a == 2 && b == 2)
+        {
+            a = b;
+        }
+    }
+}
+```
+
+#### Does this program compile?
+
+```csharp
+public class Nightmare03
 {
 	public static void Main()
 	{
@@ -54,10 +72,10 @@ public class Nightmare02
 }
 ```
 
-#### What is the `life` value after calling the `Damage` method?
+#### What is the "life" value after calling the "Damage" method?
 
 ```csharp
-public class Nightmare03
+public class Nightmare04
 {
 	public static void Damage(int life, int amount)
 	{
@@ -75,9 +93,10 @@ public class Nightmare03
 }
 ```
 
-#### Why can I access an index value in `gameState` if it’s not declared as `string[]`?
+#### Why can I access an index value in "gameState" if it’s not declared as "string[]"?
+
 ```csharp
-public class Nightmare04
+public class Nightmare05
 {
 	public static void Main()
 	{
@@ -88,9 +107,10 @@ public class Nightmare04
 }
 ```
 
-#### Why is `pCurrentWave` value never the same?
+#### Why is "pCurrentWave" value never the same?
+
 ```csharp
-public class Nightmare05
+public class Nightmare06
 {
 	public static void Main()
 	{
@@ -104,6 +124,7 @@ public class Nightmare05
 	}
 }
 ```
+
 Did you find it difficult?
 
 As you may have noticed, these are very simple exercises, so basic in fact that you may not have thought about them until now.
