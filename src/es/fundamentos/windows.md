@@ -10,7 +10,7 @@ Dejando a un lado la típica pelea de foroadictos sobre cuál es el mejor sistem
 > <h1>Pepe el Programador</h1>
 > </center>
 > 
-> Érase una vez un de videojuegos llamada Pepe, que vivía en un piso para estudiantes en Madrid, pagado con el ahorro de sus padres.
+> Érase una vez un de videojuegos llamado Pepe, que vivía en un piso para estudiantes en Madrid, pagado con el ahorro de sus padres.
 >
 > Mientras sus compañeros de piso se iban de fiesta todos los fines de semanas, Pepe permanecía diligente en su cuarto programando con Unity para seguir aprendiendo. Además, era víctima de múltiples memes, algunos bastante buenos.
 >
