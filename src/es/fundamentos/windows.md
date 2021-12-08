@@ -2,48 +2,44 @@
 
 > Disclaimer:
 >
-> No voy a tratar de convencerte de que dejes de usar Windows, pero si estás leyendo esta guía no entiendo por qué todavía sigues usándolo.
+> No voy a tratar de convencerte de que dejes de usar Windows, pero deberías considerar las ventajas de cambiar a otro sistema operativo.
 
-Dejando a un lado la típica pelea de foroadictos sobre cual es el mejor sistema operativo...
-
-Te voy a contar un cuento no tan infantil para programadores con el que espero que te sientas identificado:
+Dejando a un lado la típica pelea de foroadictos sobre cuál es el mejor sistema operativo, es hora de que leas una pequeña historia con la que te sentirás identificado:
 
 > <center>
-> <h1>Pepe el Programas</h1>
+> <h1>Pepe el Programador</h1>
 > </center>
 > 
-> Érase una vez un joven programador de videojuegos llamado Pepe que vivia en un piso de estudiantes en Madrid, pagado con el ahorro de sus padres.
+> Érase una vez un de videojuegos llamada Pepe, que vivía en un piso para estudiantes en Madrid, pagado con el ahorro de sus padres.
 >
-> Sus compañeros de piso siempre se iban de fiesta los fines de semanas, pero Pepe siempre se quedaba en su cuarto programando con Unity para seguir aprendiendo. Es por esto que sus compañeros le llamaban Pepe el Programas, para meterse con él.
+> Mientras sus compañeros de piso se iban de fiesta todos los fines de semanas, Pepe permanecía diligente en su cuarto programando con Unity para seguir aprendiendo. Además, era víctima de múltiples memes, algunos bastante buenos.
 >
-> Un día Pepe recibió un correo donde le aceptaban para trabajar en un videojuego de móviles parecido a Candy Crush, pero con un sistema de ligas y torneos semanales. Pepe tenía experiencia programando videojuegos de móviles por su cuenta, pero no había publicado ninguno en Google Play ni en App Store.
+> Un día, Pepe fue aceptado para trabajar en un videojuego de móviles parecido a Candy Crush, que poseía un sistema de ligas y torneos semanales. Pepe tenía experiencia programando videojuegos de móviles por su cuenta, pero no había publicado ninguno en Google Play ni en la App Store.
 >
-> Al día siguiente llegó a la oficina para empezar a trabajar, y tras conocer a sus compañeros le presentan la primera tarea: Solucionar un bug en el que la puntuación de un jugador no aumenta en el menú de torneo al completar un nivel.
+> Al día siguiente, cuando llegó a la oficina para comenzar a trabajar y, tras conocer a sus compañeros, le presentaron su primera tarea: Solucionar un bug en el que el servidor no guarda la puntuación obtenida de un jugador al completar un nivel.
 >
-> Pepe no tenía ni idea por donde empezar, de hecho no sabía ni lo que era un servidor. El programador jefe le explica que un servidor es un ordenador como otro cualquiera que tienen en la oficina, con la diferencia de que siempre está encendido.
+> Pepe no tenía ni idea de por dónde empezar; de hecho, no sabía ni lo que era un servidor. El programador jefe le explicó que un servidor es un ordenador como cualquier otro, con la diferencia de que siempre está encendido.
 >
-> Pepe pregunta donde está el ordenador, para sentarse allí y trabajar, pero de repente se hizo un silencio incómodo mientras el resto de sus compañeros le miraban sin saber que decirle. El programador jefe le pregunta para qué necesita saber donde está el servidor, cuando puede conectarse por SSH.
+> Tan pronto como Pepe preguntó dónde se encontraba dicho ordenador, el resto de compañeros le miraron sin saber qué decir. El programador jefe le preguntó por qué necesitaba saber dónde estaba el servidor, si podía conectarse por SSH.
 >
-> Como era de esperar, Pepe no estaba entendiendo nada de lo que le decian, pero les dijo que iba a ponerse a ello y les avisaba si no sabía como avanzar. Pasado unas horas, el programador jefe se pasó por su mesa para ver como lo llevaba. Vio que se había instalado PuTTY, pero no sabía como tenía que usarlo.
+> Como era de esperar, Pepe no entendió nada, aunque se puso con ello. Pasadas unas horas, el programador jefe se pasó por su mesa para ver cómo lo llevaba. Para su sorpresa, comprobó que había instalado PuTTY, pero no sabía cómo usarlo.
 >
-> El programador jefe se sienta junto a él y le dice que abra la consola de comandos, y se conecte con el comando ssh a la ip del servidor que hay en la red local.
+> El programador jefe se sentó junto a él y le pidió que abriera la consola de comandos para conectarse a la ip del servidor de la red local con el comando ssh.
 >
-> Pepe estaba alucinando porque es la primera vez que veia algo así, pero esa ilusión se conventiría rapidamente en desesperación al darse cuenta de que no tenía una interfaz gráfica, y que tenía que aprender a moverse entre directorios para acceder a la base de datos, y crear una columna para la puntuación que se había borrado por error...
+> Pepe estaba alucinando, ya que era la primera vez que veía algo así; no obstante, esa ilusión pronto se convertiría en desesperación al darse cuenta de que no poseía una interfaz gráfica, por lo que era necesario aprender a moverse entre los directorios para acceder a la base de datos, y crear una columna para la puntuación que se había borrado por error...
 >
 > Definitivamente, Pepe era mucho más feliz programando en Unity.
 >
-> Aún así, Pepe se ha dado cuenta de que un programador necesita de unos conocimientos generales que no se consiguien aprendiendo sólo programación de videojuegos.
+> A pesar de todo, aprendió una valiosa lección: un programador necesita tener unos conocimientos generales que no se aprenden únicamente programando videojuegos.
 
-¿Que te ha parecido la historia de Pepe?
+Aunque parezca un caso hipotético, puedes encontrarte con situaciones similares:
 
-Aunque sea un ejemplo de un caso hipotético, te puedo contar la misma historia con diferentes situaciones que se pueden dar:
+> Pepe ha creado una ruta `/user/rewards` en el servidor que se encarga de dar recompensas a los 30 jugadores con mayor puntuación del torneo, pero tiene que subir los cambios al repositorio y nunca ha usado el comando git a través de un terminal.
 
-> Pepe ha creado una ruta `/user/rewards` en el servidor que se encarga de dar las recompensas a los 30 jugadores con mayor puntuación en el torneo, pero tiene que subir los cambios al repositorio de gitlab y nunca ha usado el comando git a través de un terminal.
-
-> Pepe está teniendo un bug que no consigue identificar, debido a que sólo ocurre cuando hace la build del juego y lo prueba en su móvil.
+> Pepe ha encontrado un bug que no consigue identificar, ya que sólo ocurre cuando hace la build del juego y lo prueba en su móvil.
 >
-> Podría hacer debugging con `adb logcat -s Unity`, pero Pepe no sabe como usar un terminal, así que pierde el día entero haciendo builds a base de prueba y error hasta encontrar la solución sin saber cómo.
+> Podría hacer debugging con `adb logcat -s Unity`, pero Pepe no sabe cómo usar un terminal, así que pierde un día entero haciendo builds a base de prueba y error hasta encontrar la solución sin saber cómo lo ha conseguido.
 
-Ahora que te he expuesto varios casos donde vas a necesitar un terminal, quizás quieras darle un intento y ahorrarte la sorpresa, si no te la has llevado ya.
+Ahora que he expuesto varios casos en los que vas a necesitar un terminal, quizás quieras intentarlo por tu cuenta para ahorrarte sorpresas inesperadas.
 
-Si aún así sigues sin ver la necesidad de usarlo, no te preocupes, porque estoy a punto de desvelarte el lenguaje de programación con el que vamos a empezar en esta guía que tanto amas pero al mismo tiempo odias.
+Si crees que aún no es necesario, no te preocupes. En las próximas páginas tendrás ejemplos más explicativos para que sepas por donde empezar.
