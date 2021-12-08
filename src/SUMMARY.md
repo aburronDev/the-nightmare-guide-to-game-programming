@@ -15,6 +15,7 @@
 	- [Where we come from](./en/tutorial/cronology.md)
 - [Programming fundamentals]()
 	- [Where to start](./en/fundamentals/requirements.md)
+	- [Do not use Windows](./en/fundamentals/windows.md)
 # Español
 - [Instrucciones]()
 	- [Prefacio](./es/instrucciones/prefacio.md)
